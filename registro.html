@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Registro</title>
+</head>
+<body>
+     <header>
+          <div class="imagen">
+               <a href="index.html"><img src="./img/logo.png" alt=""></a>
+          </div>
+          <nav class="nav_Uno">
+               <ul>
+                    <li><a href="#">SMARTPHONES</a></li>
+                    <li><a href="#">TABLETS</a></li>
+                    <li><a href="#">COMPUTADORAS</a></li>
+               </ul>
+          </nav>
+          <nav class="nav_Dos">
+               <ul>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="#">REGISTRO</a></li>
+               </ul>
+          </nav>
+     </header>
+     <main>
+          <section class="container">
+               <h1>REGISTRATE</h1>
+          </section>
+          <form class="form" action="index.html" method="GET">
+               <label for="nombre">Nombre <br></label>
+                    <input type="text" name="name" id="nombre" placeholder="Nombre" size="40" required autofocus><br><br>
+               <label for="email">Email <br></label>
+                    <input type="email" name="email" id="email" placeholder="Email" size="40" required><br><br>
+               <label for="password">Password <br></label>
+                    <input type="password" name="email" id="password" placeholder="password" size="40" required><br><br>
+               <label>
+                    <h3>País de nacimiento</h3></label>
+                    <select name="país" id="" required>
+                         <option value="" disabled selected>Selecciona un país</option>
+                         <option value="AR">Argentina</option>
+                         <option value="BR">Brasil</option>
+                         <option value="CH">Chile</option>
+                         <option value="UR">Uruguay</option>
+                         <option value="PA">Paraguay</option>
+                    </select>
+               <br>
+               <label for="Género">
+                    <h3>Género</h3><br></label>
+                         <input type="radio" name="gen"     value="M">Masculino
+                         <input type="radio" name="gen"     value="F">Femenino
+                         <input type="radio" name="gen"     value="NS">Prefiero no decirlo 
+               <label for="hobbies">
+                    <h3>Hobbies</h3><br></label>
+                         <input type="radio" name="hobbie"     value="F">Futbol
+                         <input type="radio" name="hobbie"     value="P">Programacion
+                         <input type="radio" name="hobbie"     value="T">Tenis
+                         <input type="radio" name="hobbie"     value="G">Guitarra
+               <label for="comentarios">
+                    <h3>Dejanos tu comentarios</h3>
+               </label>
+                         <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Dejanos tus comentarios"></textarea><br><br>
+               <input type="checkbox" value="A" required> Acepto los terminos y condiciones <br><br>
+               <button type="submit">Registrarme</button>
+               <button type="reset">Cancelar</button>
+          </form>
+     </main>
+</body>
+</html>

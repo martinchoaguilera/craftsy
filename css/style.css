@@ -1,0 +1,209 @@
+/* login 157
+registro 200 */
+
+body{
+     margin-left: 13%;
+     background-image: url(../img/bg-2.png);
+}
+
+/* NAVEGACION HEADER */
+header{
+     /* border: 3px solid; */
+     overflow: hidden;
+     width: 1140px;
+     background-color: orangered;
+}
+header nav ul{
+     list-style-type: none;
+     /* border: 2px solid tomato; */
+     display: inline-block;
+     padding: 0 0 0 0;
+}
+
+header li{
+     /* border: 1px solid; */
+     display: inline-block;
+     padding-left: 10px;
+     margin-top: 5px;
+}
+.imagen{
+     float: left;
+     /* border: 2px solid; */
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.nav_Uno{
+     margin-left: 20px;
+     float: left;
+}
+.nav_Dos{
+     float: right;
+     margin-right: 20px;
+}
+nav a{
+     text-decoration: none;
+     color: white;
+     /* font-weight:bold ; */
+}
+
+
+/* CUERPO BODY */
+
+main{
+     overflow: hidden;
+     width: 1140px;
+     margin-top: 20px;
+}
+
+.seccionUno{
+     float: left;
+     /* border: 2px solid; */
+     width: 800px;
+     background-color: white;
+     overflow: hidden;
+}
+
+
+
+.articulos{
+     /* border: 1px solid; */
+     width: 380px;
+     float: left;
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.imagenes img{
+     width: 100%;
+}
+
+article button{
+     color: white;
+     background-color: orangered;
+     padding: 10px;
+}
+
+article button:hover{
+     color: orangered;
+     background-color: white;
+}
+
+/* seccion 2 */
+
+.seccionDos{
+     float: right;
+     /* border: 2px solid; */
+     width: 320px;
+}
+.titulos{
+     margin-top: -20px;
+     background-color: white;
+     width: 100%;
+}
+.titulos h2{
+     padding: 10px;
+}
+
+.tutoriales{
+     overflow: hidden;
+     background-color: white;
+     box-sizing: border-box;
+     border: 2px solid;
+     padding: 10px;
+     height: 450px;
+}
+
+.tutoriales div{
+     margin-bottom: 5px;
+     border-bottom: 1px solid;
+     height: 100px;
+}
+.tutoriales p{
+     float: right;
+     display: block;
+     width: 60%;
+}
+
+.tutoriales img{
+     margin-top: 10px;
+     width: 30%;
+}
+
+.publicidades{
+     padding: 10px;
+     background-color: white;
+}
+
+
+.publicidad{
+     height:560px;
+     background-color: white;
+     border: 2px solid;
+}
+.publicidad div{
+     position: relative;
+     left :8px;
+     width: 300px;
+     border:1px solid;
+     height: 250px;
+     margin-top: 20px;
+}
+
+.publicidad div img{
+     width: 100%;
+     height: 100%;
+}
+
+
+/* ------------------------------------------LOGIN--------------------------------------------------------------------- */
+
+.container{
+     /* border: 1px solid tomato; */
+     text-align: center;
+     /* display:inline-block; */
+}
+ .main form{
+      /* border: 1px solid teal; */
+      text-align: center;
+      padding: 10px;
+ }
+ form section{
+      /* border: 2px solid springgreen; */
+      display: inline-block;
+      padding: 30px;
+      text-align: start;
+      margin: 20px
+ }
+.completar{
+     /* margin-top: 10px; */
+     margin-bottom: 15px;
+     /* width: 300px; */
+     height: 20px;
+     padding: 5px;
+}
+.main form p{
+     text-align: end;
+     /* border: 1px solid; */
+     /* position: relative;
+     bottom: 20px; */
+}
+
+form button{
+     padding: 10px;
+     width: 120px;
+     background-color: steelblue;
+     color: white;
+     border-radius: 10px;
+     border: none;
+}
+
+
+/* -------------------------------------------REGISTRO--------------------------------------------------------------- */
+
+.form{
+     /*   */
+     display: inline-block;
+     /* text-align: center; */
+     position: relative;
+     left: 400px;
+}
